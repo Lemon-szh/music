@@ -1,0 +1,39 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,figcaption,figure,legend{
+	margin:0; padding:0;
+	}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{display:block}
+ul,li{
+	list-style: none;
+	
+}
+
+body{font-size:16px;}
+
+h1,h2,h3,h4{
+	font-weight: normal;
+	line-height: 1;
+}
+h1{
+	float: left;
+}
+html{
+	overflow-x: hidden;
+}
+.clean:after{
+	clear: both;
+	content: ".";
+	height: 0;
+	overflow: hidden;
+	display: block;
+	visibility: hidden;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
